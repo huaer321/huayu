@@ -37,7 +37,7 @@ Vue.component('sign-form', {
                             <label v-if="invitation != \'0\' && type == 2" class="inv-k">\
                                 <span class="tip-icon"><i class="iconfont zrz-icon-font-yaoqingma"></i></span><input type="text" name="code" tabindex="6" class="code" v-model="data.invCode" placeholder="邀请码">\
                                 </span>\
-                                <span class="sign-des" v-text="invitationMust == 1 ?\'必填\': \'选填\'"></span><a style="color: #707090"><a href="https://www.baidu.com"><a style="font-size : 9pt">ㅤ<i class="fa fa-battery-three-quarters" aria-hidden="true"><span style="text-decoration: underline;"> ►— 获取邀请码 —◄ </span></i></a></a></a>\
+                                <span class="sign-des" v-text="invitationMust == 1 ?\'必填\': \'选填\'"></span><a style="color: #707090"><a href="https://www.baidu.com"><a style="font-size : 9pt">ㅤ<i class="fa fa-battery-three-quarters" aria-hidden="true"> ►— 获取邀请码 —◄ </i></a></a></a>\
                             </label>\
                             </template>\
                         <template v-if="rePass == 1">\
